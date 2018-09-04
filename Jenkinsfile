@@ -35,7 +35,7 @@ node('integration-test') {
           ${USERNAME} \
           ${PASSWORD}
         cd dm-ansible
-        git checkout issue_265
+        git checkout filewriter_test
       """
     }  // stage
   }  // withCredentials
